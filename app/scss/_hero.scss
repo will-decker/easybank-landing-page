@@ -1,5 +1,6 @@
 .hero {
   background-color: $veryLightGray;
+  z-index: 1;
 
   .container {
     @include breakpoint-up(large) {
